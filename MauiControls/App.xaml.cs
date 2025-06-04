@@ -12,7 +12,7 @@ namespace MauiControls
         protected override Window CreateWindow(IActivationState? activationState)
         {
             //return new Window(new AppShell());
-            var pagina = new MauiCommandControls();
+            var pagina = new MauiSetValueControls();
             var navPage = new NavigationPage(pagina)
             {
                 BarBackgroundColor = Colors.Blue,
